@@ -12,6 +12,9 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1105750766552013');
+fbq('init', '951661158933287');
+fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1105750766552013&ev=PageView&noscript=1"
@@ -19,7 +22,7 @@ src="https://www.facebook.com/tr?id=1105750766552013&ev=PageView&noscript=1"
 <!-- End Facebook Pixel Code -->
 </head>
 <body>
-  <button onclick="fbq('init', '1105750766552013'); fbq('track', 'PageView'); fbq('track', 'Purchase'); ">Pixel 1105750766552013, PageView, Purchase</button>
-  <button onclick="fbq('init', '951661158933287'); fbq('track', 'PageView'); fbq('track', 'Lead'); ">Pixel 951661158933287, PageView, Lead</button>
+  <button onclick="fbq('track', '1105750766552013', 'Purchase'); ">Pixel 1105750766552013, Purchase</button>
+  <button onclick="fbq('track', '951661158933287', 'Lead'); ">Pixel 951661158933287, Lead</button>
 </body>
 </html>
